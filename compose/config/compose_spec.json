@@ -8,7 +8,7 @@
   "properties": {
     "version": {
       "type": "string",
-      "description": "Version of the Compose specification used. Tools not implementing required version MUST reject the configuration file."
+      "description": "Version of the Compose specification used. Tools not implementing required version MUST reject the configuration file. hello"
     },
 
     "services": {
