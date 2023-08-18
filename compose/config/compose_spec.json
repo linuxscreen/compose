@@ -333,7 +333,13 @@
           "always", "never", "if_not_present", "build"
         ]},
         "read_only": {"type": "boolean"},
-        "restart": {"type": "string"},
+        "restart": {
+          "type": "string",
+          "titile": "重启策略",
+          "description": "on-failure[:max-retries]	Restart only if the container exits with a non-zero exit status. Optionally, limit the number of restart retries the Docker daemon attempts.
+unless-stopped	Restart the container unless it’s explicitly stopped or Docker itself is stopped or restarted.
+always	Always restart the container regardless of the exit status. When you specify always, the Docker daemon tries to restart the container indefinitely. The container always starts on daemon startup, regardless of the current state of the container."
+        },
         "runtime": {
           "type": "string"
         },
